@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cart - Online Book Store</title>
+</head>
+<body>
+
+  <header>
+    <h1>Your Shopping Cart</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="login.html">Login</a> |
+      <a href="register.html">Registration</a> |
+      <a href="cse.html">Catalogue</a> |
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Items in Your Cart</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Introduction to Algorithms</td>
+            <td>Thomas H. Cormen</td>
+            <td>₹850</td>
+            <td><a href="#">Remove</a></td>
+          </tr>
+          <tr>
+            <td>Operating System Concepts</td>
+            <td>Abraham Silberschatz</td>
+            <td>₹720</td>
+            <td><a href="#">Remove</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Total:</strong> ₹1570</p>
+      <form action="checkout.html" method="post">
+        <input type="submit" value="Proceed to Checkout">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Online Book Store</p>
+  </footer>
+
+</body>
+</html>
